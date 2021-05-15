@@ -1,0 +1,26 @@
+.contact-content{  
+    height: 100vh;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative; 
+    overflow: hidden;
+    
+  }
+  
+  .contact-content::after {
+    content: "";
+    background-color: #000000;
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+    z-index: -1;
+  }
+ .contact-form{
+    margin: 1px 15px; 
+ }
+ #feel{
+     margin: 2px 10px;
+ }
